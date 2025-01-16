@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #04321a;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(38, 151, 38);
+    color: white;
+    box-shadow: 0 2px 4px rgba(231, 105, 105, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(14, 74, 3);
+    font-size: 1.02rem;
+}
+
+.name {
+    font-size: 1.9rem;
+    margin-right: 45%;
+}
+
+.para {
+    padding-top: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: black;
+}
+
+hr {
+    border: 0;
+    background: #45c26a;
+    height: 1.9px;
+    margin: 60px 60px;
+}
+
+.top {
+    text-align: center;
+    color: rgb(53, 129, 53)
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    background: rgb(198, 230, 204);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: calc(50% - 2rem);
+    box-shadow: 0 4px 8px rgba(9, 9, 9, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(25, 25, 25, 0.2);
+}
+
+.info h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.info img {
+    overflow: hidden;
+    width: 370px;
+    height: 230px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.info h4 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.tab a {
+    margin: 0 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgba(19, 63, 14, 0.929);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

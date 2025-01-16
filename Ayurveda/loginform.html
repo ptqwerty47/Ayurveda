@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #acb4ad;
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        padding-top: 40%;
+        width: 280px;
+        background: rgb(226, 237, 228);
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 8%;
+        padding: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .info:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    input {
+        width: 94%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        border-color: rgb(158, 158, 158);
+    }
+
+    button {
+        width: 98%;
+        padding: 10px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <form>
+        <h2>Login</h2>
+        <input type="text" placeholder="Email or Mobile Number" maxlength="25" required>
+        <input type="password" placeholder="Password" maxlength="12" required>
+        <button type="submit">Login</button>
+        <p>
+            <a href="#">Forgot Password?</a>
+        </p>
+    </form>
+</body>
+
+</html>
