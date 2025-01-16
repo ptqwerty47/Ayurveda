@@ -1,0 +1,2 @@
+# Ayurveda
+A college project
